@@ -1,0 +1,13 @@
+# Mičov Stock Prediktion — závislosti Pythonu
+# Instalace: pip install -r requirements.txt
+# macOS (XGBoost): brew install libomp
+
+yfinance>=0.2.38
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+joblib>=1.3.0
+matplotlib>=3.7.0
+pyarrow>=14.0.0      # cache stažených dat (parquet)
+pytest>=8.0.0        # testy (tests/)
